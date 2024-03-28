@@ -1,0 +1,154 @@
+<style>
+#header {height:150px;background-image:url("csu1.webp");background-repeat:no-repeat;background-size:cover;padding:1em}
+#article {height:900px;background-color:#fffaf3;padding:1em}
+#footer {height:75px;background-color:#f9c81e;padding:1em}
+#ty1
+{
+text-align:center;
+color:bisque;
+}
+
+#ty2
+{
+text-align: center;
+color: cornflowerblue;
+}
+
+.ty3
+{
+text-align: center;
+color: gold;
+}
+
+div.ty3-1
+{
+background-color: gray;
+}
+
+h2.ty4
+{
+text-align: center;
+color: greenyellow;
+}
+
+h2.ty5
+{
+text-align: center;
+background-color: white;
+}
+
+div .ty5-1
+{
+text-align: center;
+background-color: purple;	
+}
+
+.remove
+{
+margin:0;
+}
+
+.ty6
+{
+text-align: center;
+}
+
+div .p2:hover 
+{
+background-color: yellow;
+}
+
+li:nth-child(2) 
+{
+background-color: yellow;
+}
+
+.ty7::before 
+{
+content: "◼";
+}
+
+.ty8 
+{
+width:100%;
+height:auto;
+border-radius: 20px;
+border: 5px solid #ddd;
+padding: 2px;
+}
+
+.ty9
+{
+width:40%;
+height:auto;
+display:block;
+margin:auto;
+}
+
+.ty10 
+{
+max-width:100%; height:auto; opacity: 1;
+}
+.ty10:hover
+{
+opacity: 0.4
+}
+
+.ty11
+{
+color: #00ff00;
+}
+
+p.ex
+{
+color: rgb(0,0,255);
+}
+
+</style>
+
+<body>
+<div id="header">
+<h1>Header</h1>
+</div>
+<div id="article">
+<h1>Article</h1>
+
+<div class="ty3-1">
+<p id="ty1">Hello World!</p>
+<p id="ty2">This paragraph is not affected by the style.</p>
+<h1 class="ty3">test1</h1>
+<h2 class="ty4">test2-1</h2>
+<h2 class="ty4">test2-2</h2>
+<h2 class="ty5 remove">test2-3</h2>
+<div class="ty5-1">
+<h3 class="remove">test3-1</h3>
+<h3 class="remove">test3-2</h3>
+</div>
+<h3 class="ty6">test3-3</h3>
+<div>
+	<p class="p2 ty6">Chapter 1</p>
+	<p class="p2 ty6">Chapter 2</p>
+	<p class="p2 ty6">Chapter 3</p>
+</div>
+<ul>
+<li>Option 1</li>
+<li>Option 2</li>
+<li>Option 3</li>
+</ul>
+<p class="ty6 ty7">Content 1</p>
+<p class="ty6 ty7">Content 2</p>
+
+<img src="csu1.webp" class="ty8">
+<img src="csu1.webp" class="ty9">
+<img src="csu1.webp" class="ty10">
+
+<h1 class="ty11">This is heading 1</h1>
+
+
+<p class="ex">This is a paragraph with class="ex".</p>
+
+</div>
+<div id="footer">
+<h1>Footer</h1>
+</div>
+</body>
